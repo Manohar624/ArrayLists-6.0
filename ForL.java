@@ -1,7 +1,20 @@
+import java.util.ArrayList;
+
 public class ForL{
 public static void main(String[]args){
-// prepare an object for ArrayList
-  // Load String instead of Integers 
-  // Iterate them using for each loop
+
+    ArrayList<String> stringList = new ArrayList<>();
+
+      
+        stringList.add("Mango");
+        stringList.add("Banana");
+        stringList.add("Orange");
+        
+
+        
+        for (String fruit : stringList) {
+            
+            System.out.println(fruit);
+        }
 }
 }
